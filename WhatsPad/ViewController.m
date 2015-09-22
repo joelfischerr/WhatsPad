@@ -29,6 +29,8 @@
     
     webView = [[WKWebView alloc] initWithFrame:self.view.frame configuration:theConfiguration];
     
+    
+    
     webView.navigationDelegate = self;
     
     webView.customUserAgent = userAgent;
@@ -40,8 +42,8 @@
     [webView loadRequest:nsrequest];
     
     [self.view addSubview:webView];
-
-    NSLog(@"Webview: %@ %@ %f", webView.URL, webView.title, webView.estimatedProgress);
+    
+    [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(handleOrientationChangeNotification:) name: UIDeviceOrientationDidChangeNotification object: nil];
     
 }
 
@@ -72,6 +74,12 @@
         [self presentViewController:alert animated:YES completion:nil];
         
     }
+    
+}
+
+- (void)handleOrientationChangeNotification:(NSNotification *)notification {
+    
+    webView.frame = self.view.frame;
     
 }
 
