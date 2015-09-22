@@ -15,6 +15,7 @@
 		4AEDF0C01BB176FC00ABE189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEDF0BE1BB176FC00ABE189 /* LaunchScreen.storyboard */; };
 		4AEDF0CB1BB176FC00ABE189 /* WhatsPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDF0CA1BB176FC00ABE189 /* WhatsPadTests.m */; };
 		4AEDF0D61BB176FC00ABE189 /* WhatsPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDF0D51BB176FC00ABE189 /* WhatsPadUITests.m */; };
+		4AEDF0E41BB1787100ABE189 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEDF0E31BB1787100ABE189 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4AEDF0D11BB176FC00ABE189 /* WhatsPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEDF0D51BB176FC00ABE189 /* WhatsPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsPadUITests.m; sourceTree = "<group>"; };
 		4AEDF0D71BB176FC00ABE189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEDF0E31BB1787100ABE189 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AEDF0E41BB1787100ABE189 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +120,7 @@
 		4AEDF0B01BB176FC00ABE189 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4AEDF0E31BB1787100ABE189 /* WebKit.framework */,
 				4AEDF0B11BB176FC00ABE189 /* main.m */,
 			);
 			name = "Supporting Files";
