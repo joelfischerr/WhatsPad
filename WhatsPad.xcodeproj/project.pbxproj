@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AEDF0B21BB176FC00ABE189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDF0B11BB176FC00ABE189 /* main.m */; };
+		4AEDF0B51BB176FC00ABE189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDF0B41BB176FC00ABE189 /* AppDelegate.m */; };
+		4AEDF0B81BB176FC00ABE189 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDF0B71BB176FC00ABE189 /* ViewController.m */; };
+		4AEDF0BB1BB176FC00ABE189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEDF0B91BB176FC00ABE189 /* Main.storyboard */; };
+		4AEDF0BD1BB176FC00ABE189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AEDF0BC1BB176FC00ABE189 /* Assets.xcassets */; };
+		4AEDF0C01BB176FC00ABE189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEDF0BE1BB176FC00ABE189 /* LaunchScreen.storyboard */; };
+		4AEDF0CB1BB176FC00ABE189 /* WhatsPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDF0CA1BB176FC00ABE189 /* WhatsPadTests.m */; };
+		4AEDF0D61BB176FC00ABE189 /* WhatsPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDF0D51BB176FC00ABE189 /* WhatsPadUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AEDF0C71BB176FC00ABE189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AEDF0A51BB176FB00ABE189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AEDF0AC1BB176FC00ABE189;
+			remoteInfo = WhatsPad;
+		};
+		4AEDF0D21BB176FC00ABE189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AEDF0A51BB176FB00ABE189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AEDF0AC1BB176FC00ABE189;
+			remoteInfo = WhatsPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AEDF0AD1BB176FC00ABE189 /* WhatsPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEDF0B11BB176FC00ABE189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AEDF0B31BB176FC00ABE189 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AEDF0B41BB176FC00ABE189 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AEDF0B61BB176FC00ABE189 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AEDF0B71BB176FC00ABE189 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AEDF0BA1BB176FC00ABE189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AEDF0BC1BB176FC00ABE189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AEDF0BF1BB176FC00ABE189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AEDF0C11BB176FC00ABE189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEDF0C61BB176FC00ABE189 /* WhatsPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEDF0CA1BB176FC00ABE189 /* WhatsPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsPadTests.m; sourceTree = "<group>"; };
+		4AEDF0CC1BB176FC00ABE189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEDF0D11BB176FC00ABE189 /* WhatsPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEDF0D51BB176FC00ABE189 /* WhatsPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsPadUITests.m; sourceTree = "<group>"; };
+		4AEDF0D71BB176FC00ABE189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AEDF0AA1BB176FC00ABE189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDF0C31BB176FC00ABE189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDF0CE1BB176FC00ABE189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AEDF0A41BB176FB00ABE189 = {
+			isa = PBXGroup;
+			children = (
+				4AEDF0AF1BB176FC00ABE189 /* WhatsPad */,
+				4AEDF0C91BB176FC00ABE189 /* WhatsPadTests */,
+				4AEDF0D41BB176FC00ABE189 /* WhatsPadUITests */,
+				4AEDF0AE1BB176FC00ABE189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AEDF0AE1BB176FC00ABE189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDF0AD1BB176FC00ABE189 /* WhatsPad.app */,
+				4AEDF0C61BB176FC00ABE189 /* WhatsPadTests.xctest */,
+				4AEDF0D11BB176FC00ABE189 /* WhatsPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AEDF0AF1BB176FC00ABE189 /* WhatsPad */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDF0B31BB176FC00ABE189 /* AppDelegate.h */,
+				4AEDF0B41BB176FC00ABE189 /* AppDelegate.m */,
+				4AEDF0B61BB176FC00ABE189 /* ViewController.h */,
+				4AEDF0B71BB176FC00ABE189 /* ViewController.m */,
+				4AEDF0B91BB176FC00ABE189 /* Main.storyboard */,
+				4AEDF0BC1BB176FC00ABE189 /* Assets.xcassets */,
+				4AEDF0BE1BB176FC00ABE189 /* LaunchScreen.storyboard */,
+				4AEDF0C11BB176FC00ABE189 /* Info.plist */,
+				4AEDF0B01BB176FC00ABE189 /* Supporting Files */,
+			);
+			path = WhatsPad;
+			sourceTree = "<group>";
+		};
+		4AEDF0B01BB176FC00ABE189 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDF0B11BB176FC00ABE189 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AEDF0C91BB176FC00ABE189 /* WhatsPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDF0CA1BB176FC00ABE189 /* WhatsPadTests.m */,
+				4AEDF0CC1BB176FC00ABE189 /* Info.plist */,
+			);
+			path = WhatsPadTests;
+			sourceTree = "<group>";
+		};
+		4AEDF0D41BB176FC00ABE189 /* WhatsPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDF0D51BB176FC00ABE189 /* WhatsPadUITests.m */,
+				4AEDF0D71BB176FC00ABE189 /* Info.plist */,
+			);
+			path = WhatsPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AEDF0AC1BB176FC00ABE189 /* WhatsPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEDF0DA1BB176FC00ABE189 /* Build configuration list for PBXNativeTarget "WhatsPad" */;
+			buildPhases = (
+				4AEDF0A91BB176FC00ABE189 /* Sources */,
+				4AEDF0AA1BB176FC00ABE189 /* Frameworks */,
+				4AEDF0AB1BB176FC00ABE189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsPad;
+			productName = WhatsPad;
+			productReference = 4AEDF0AD1BB176FC00ABE189 /* WhatsPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AEDF0C51BB176FC00ABE189 /* WhatsPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEDF0DD1BB176FC00ABE189 /* Build configuration list for PBXNativeTarget "WhatsPadTests" */;
+			buildPhases = (
+				4AEDF0C21BB176FC00ABE189 /* Sources */,
+				4AEDF0C31BB176FC00ABE189 /* Frameworks */,
+				4AEDF0C41BB176FC00ABE189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AEDF0C81BB176FC00ABE189 /* PBXTargetDependency */,
+			);
+			name = WhatsPadTests;
+			productName = WhatsPadTests;
+			productReference = 4AEDF0C61BB176FC00ABE189 /* WhatsPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AEDF0D01BB176FC00ABE189 /* WhatsPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEDF0E01BB176FC00ABE189 /* Build configuration list for PBXNativeTarget "WhatsPadUITests" */;
+			buildPhases = (
+				4AEDF0CD1BB176FC00ABE189 /* Sources */,
+				4AEDF0CE1BB176FC00ABE189 /* Frameworks */,
+				4AEDF0CF1BB176FC00ABE189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AEDF0D31BB176FC00ABE189 /* PBXTargetDependency */,
+			);
+			name = WhatsPadUITests;
+			productName = WhatsPadUITests;
+			productReference = 4AEDF0D11BB176FC00ABE189 /* WhatsPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AEDF0A51BB176FB00ABE189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Joel Fischer";
+				TargetAttributes = {
+					4AEDF0AC1BB176FC00ABE189 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4AEDF0C51BB176FC00ABE189 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4AEDF0AC1BB176FC00ABE189;
+					};
+					4AEDF0D01BB176FC00ABE189 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4AEDF0AC1BB176FC00ABE189;
+					};
+				};
+			};
+			buildConfigurationList = 4AEDF0A81BB176FB00ABE189 /* Build configuration list for PBXProject "WhatsPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AEDF0A41BB176FB00ABE189;
+			productRefGroup = 4AEDF0AE1BB176FC00ABE189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AEDF0AC1BB176FC00ABE189 /* WhatsPad */,
+				4AEDF0C51BB176FC00ABE189 /* WhatsPadTests */,
+				4AEDF0D01BB176FC00ABE189 /* WhatsPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AEDF0AB1BB176FC00ABE189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEDF0C01BB176FC00ABE189 /* LaunchScreen.storyboard in Resources */,
+				4AEDF0BD1BB176FC00ABE189 /* Assets.xcassets in Resources */,
+				4AEDF0BB1BB176FC00ABE189 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDF0C41BB176FC00ABE189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDF0CF1BB176FC00ABE189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AEDF0A91BB176FC00ABE189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEDF0B81BB176FC00ABE189 /* ViewController.m in Sources */,
+				4AEDF0B51BB176FC00ABE189 /* AppDelegate.m in Sources */,
+				4AEDF0B21BB176FC00ABE189 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDF0C21BB176FC00ABE189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEDF0CB1BB176FC00ABE189 /* WhatsPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDF0CD1BB176FC00ABE189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEDF0D61BB176FC00ABE189 /* WhatsPadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AEDF0C81BB176FC00ABE189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AEDF0AC1BB176FC00ABE189 /* WhatsPad */;
+			targetProxy = 4AEDF0C71BB176FC00ABE189 /* PBXContainerItemProxy */;
+		};
+		4AEDF0D31BB176FC00ABE189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AEDF0AC1BB176FC00ABE189 /* WhatsPad */;
+			targetProxy = 4AEDF0D21BB176FC00ABE189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AEDF0B91BB176FC00ABE189 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AEDF0BA1BB176FC00ABE189 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AEDF0BE1BB176FC00ABE189 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AEDF0BF1BB176FC00ABE189 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AEDF0D81BB176FC00ABE189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4AEDF0D91BB176FC00ABE189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AEDF0DB1BB176FC00ABE189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhatsPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelfischer.WhatsPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AEDF0DC1BB176FC00ABE189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhatsPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelfischer.WhatsPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AEDF0DE1BB176FC00ABE189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhatsPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelfischer.WhatsPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsPad.app/WhatsPad";
+			};
+			name = Debug;
+		};
+		4AEDF0DF1BB176FC00ABE189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhatsPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelfischer.WhatsPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsPad.app/WhatsPad";
+			};
+			name = Release;
+		};
+		4AEDF0E11BB176FC00ABE189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WhatsPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelfischer.WhatsPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhatsPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4AEDF0E21BB176FC00ABE189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WhatsPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joelfischer.WhatsPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhatsPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AEDF0A81BB176FB00ABE189 /* Build configuration list for PBXProject "WhatsPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEDF0D81BB176FC00ABE189 /* Debug */,
+				4AEDF0D91BB176FC00ABE189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEDF0DA1BB176FC00ABE189 /* Build configuration list for PBXNativeTarget "WhatsPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEDF0DB1BB176FC00ABE189 /* Debug */,
+				4AEDF0DC1BB176FC00ABE189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AEDF0DD1BB176FC00ABE189 /* Build configuration list for PBXNativeTarget "WhatsPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEDF0DE1BB176FC00ABE189 /* Debug */,
+				4AEDF0DF1BB176FC00ABE189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AEDF0E01BB176FC00ABE189 /* Build configuration list for PBXNativeTarget "WhatsPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEDF0E11BB176FC00ABE189 /* Debug */,
+				4AEDF0E21BB176FC00ABE189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AEDF0A51BB176FB00ABE189 /* Project object */;
+}
