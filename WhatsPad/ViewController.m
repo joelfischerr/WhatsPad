@@ -14,7 +14,7 @@
 @end
 
 @implementation ViewController
-@synthesize webView;
+@synthesize JFwebView;
 
 
 
@@ -27,23 +27,29 @@
 
     WKWebViewConfiguration *theConfiguration = [[WKWebViewConfiguration alloc] init];
     
-    webView = [[WKWebView alloc] initWithFrame:self.view.frame configuration:theConfiguration];
+    JFwebView = [[WKWebView alloc] initWithFrame:self.view.frame configuration:theConfiguration];
     
+    JFwebView.navigationDelegate = self;
     
+    JFwebView.customUserAgent = userAgent;
     
-    webView.navigationDelegate = self;
+    [self.view addSubview:JFwebView];
     
-    webView.customUserAgent = userAgent;
+    [self loadWhatsappWeb];
+    
+    [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(handleOrientationChangeNotification:) name: UIDeviceOrientationDidChangeNotification object: nil];
+
+    
+}
+
+- (void)loadWhatsappWeb {
+    
     
     NSURL *nsurl=[NSURL URLWithString:@"http://web.whatsapp.com"];
     
     NSURLRequest *nsrequest=[NSURLRequest requestWithURL:nsurl];
     
-    [webView loadRequest:nsrequest];
-    
-    [self.view addSubview:webView];
-    
-    [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(handleOrientationChangeNotification:) name: UIDeviceOrientationDidChangeNotification object: nil];
+    [JFwebView loadRequest:nsrequest];
     
 }
 
@@ -79,7 +85,7 @@
 
 - (void)handleOrientationChangeNotification:(NSNotification *)notification {
     
-    webView.frame = self.view.frame;
+    JFwebView.frame = self.view.frame;
     
 }
 
@@ -93,11 +99,41 @@
     
 }
 
+- (void)webView:(WKWebView * _Nonnull)webView
+didCommitNavigation:(WKNavigation * _Null_unspecified)navigation {
+    
+    
+    NSLog(@"Did commit Navigation to url %@", webView.URL);
+    
+    NSString *string = [NSString stringWithFormat:@"%@", webView.URL];
+    
+    if ([string containsString:@"web.whatsapp.com"]) {
+        
+        NSLog(@"on whatsapp web");
+        
+        [self.view bringSubviewToFront:self.JFwebView];
+        
+    } else {
+        
+        NSLog(@"left whatsapp web");
+        
+        [self.view bringSubviewToFront:self.backButton];
+        
+    }
+    
+    
+}
 
 
 
 
 
 
+- (IBAction)goBackToWhatsappWeb:(id)sender {
+    
+    [self loadWhatsappWeb];
+    
+    
+}
 @end
 

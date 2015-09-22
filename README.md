@@ -22,8 +22,8 @@ Most features of WhatsApp Web are currently supported:
 | Feature                               	| Working? 	|
 |---------------------------------------	|----------	|
 | Text chat                             	| YES      	|
-| Attached media viewing                	| NO       	|
-| Attached media downloading            	| NO       	|
+| Attached media viewing                	| YES       	|
+| Attached media downloading            	| YES       	|
 | Notification center notifications     	| NO       	|
 | Media Uploading                       	| YES      	|
 | Media recording (using camera + mic.) 	| NO       	|

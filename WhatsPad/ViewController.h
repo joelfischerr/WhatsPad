@@ -11,8 +11,11 @@
 
 @interface ViewController : UIViewController <WKNavigationDelegate>
 
-@property WKWebView *webView;
+@property WKWebView *JFwebView;
 
+@property (weak, nonatomic) IBOutlet UIView *backButtonView;
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
+- (IBAction)goBackToWhatsappWeb:(id)sender;
 
 @end
 
