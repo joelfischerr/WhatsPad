@@ -16,7 +16,6 @@
 		4AEDF0CB1BB176FC00ABE189 /* WhatsPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDF0CA1BB176FC00ABE189 /* WhatsPadTests.m */; };
 		4AEDF0D61BB176FC00ABE189 /* WhatsPadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDF0D51BB176FC00ABE189 /* WhatsPadUITests.m */; };
 		4AEDF0E41BB1787100ABE189 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEDF0E31BB1787100ABE189 /* WebKit.framework */; };
-		4AEDF0E71BB17C6C00ABE189 /* WKWebView+WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDF0E61BB17C6C00ABE189 /* WKWebView+WebView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +53,6 @@
 		4AEDF0D51BB176FC00ABE189 /* WhatsPadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsPadUITests.m; sourceTree = "<group>"; };
 		4AEDF0D71BB176FC00ABE189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AEDF0E31BB1787100ABE189 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		4AEDF0E51BB17C6C00ABE189 /* WKWebView+WebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+WebView.h"; sourceTree = "<group>"; };
-		4AEDF0E61BB17C6C00ABE189 /* WKWebView+WebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+WebView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +104,6 @@
 		4AEDF0AF1BB176FC00ABE189 /* WhatsPad */ = {
 			isa = PBXGroup;
 			children = (
-				4AEDF0E51BB17C6C00ABE189 /* WKWebView+WebView.h */,
-				4AEDF0E61BB17C6C00ABE189 /* WKWebView+WebView.m */,
 				4AEDF0B31BB176FC00ABE189 /* AppDelegate.h */,
 				4AEDF0B41BB176FC00ABE189 /* AppDelegate.m */,
 				4AEDF0B61BB176FC00ABE189 /* ViewController.h */,
@@ -280,7 +275,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AEDF0B81BB176FC00ABE189 /* ViewController.m in Sources */,
-				4AEDF0E71BB17C6C00ABE189 /* WKWebView+WebView.m in Sources */,
 				4AEDF0B51BB176FC00ABE189 /* AppDelegate.m in Sources */,
 				4AEDF0B21BB176FC00ABE189 /* main.m in Sources */,
 			);
